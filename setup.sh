@@ -14,4 +14,5 @@ sleep 90s
 &
 cp landscape_server_ca.crt /etc/landscape/
 &
-landscape-config --account-name standalone --url https://landscape.bonezie.com/message-system --ping-url http://landscape.bonezie.com/ping --ssl-public-key /etc/landscape/landscape_server_ca.crt 
+cp client.conf /etc/landscape/
+
