@@ -1,0 +1,18 @@
+###### Ubuntu Main Repos ######
+deb http://cache.bonezie.com/ubuntu/ bionic main restricted universe multiverse 
+
+###### Ubuntu Main Repos Sources ######
+deb-src http://cache.bonezie.com/ubuntu/ bionic main restricted universe multiverse 
+
+###### Ubuntu Update Repos ######
+deb http://cache.bonezie.com/ubuntu/ bionic-security main restricted universe multiverse 
+deb http://cache.bonezie.com/ubuntu/ bionic-updates main restricted universe multiverse 
+deb http://cache.bonezie.com/ubuntu/ bionic-proposed main restricted universe multiverse 
+deb http://cache.bonezie.com/ubuntu/ bionic-backports main restricted universe multiverse 
+
+###### Ubuntu Update Repos Sources ######
+deb-src http://cache.bonezie.com/ubuntu/ bionic-security main restricted universe multiverse 
+deb-src http://cache.bonezie.com/ubuntu/ bionic-updates main restricted universe multiverse 
+deb-src http://cache.bonezie.com/ubuntu/ bionic-proposed main restricted universe multiverse 
+deb-src http://cache.bonezie.com/ubuntu/ bionic-backports main restricted universe multiverse
+
