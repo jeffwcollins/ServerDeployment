@@ -9,7 +9,6 @@ sleep 2
 apt-get update & apt-get upgrade -y
 sleep 90s
 apt-get install landscape-client -y & sleep 90s & cp landscape_server_ca.crt /etc/landscape/ & cp client.conf /etc/landscape/
-<<<<<<< HEAD
 #
 sleep 10s
 #
@@ -19,6 +18,3 @@ sleep 5s
 #
 landscape-config --account-name standalone --url https://landscape.bonezie.com/message-system --ping-url http://landscape.bonezie.com/ping --ssl-public-key /etc/landscape/landscape_server_ca.crt
 #
-=======
-
->>>>>>> 8cda4dac6c3ab8a6cc4d8fa27f35a407109622cf
