@@ -23,24 +23,39 @@
 #sleep 20
 #
 lxc exec elasticsearch service packetbeat restart
+&
 lxc exec elasticsearch2 service packetbeat restart
+&
 lxc exec elasticsearch3 service packetbeat restart
+&
 lxc exec elasticsearch4 service packetbeat restart
+&
 lxc exec elasticsearch5 service packetbeat restart
+&
 sleep 20
 #
 lxc exec elasticsearch service filebeat restart
+&
 lxc exec elasticsearch2 service filebeat restart
+&
 lxc exec elasticsearch3 service filebeat restart
+&
 lxc exec elasticsearch4 service filebeat restart
+&
 lxc exec elasticsearch5 service filebeat restart
+&
 sleep 20
 #
 lxc exec elasticsearch service metricbeat restart
+&
 lxc exec elasticsearch2 service metricbeat restart
+&
 lxc exec elasticsearch3 service metricbeat restart
+&
 lxc exec elasticsearch4 service metricbeat restart
+&
 lxc exec elasticsearch5 service metricbeat restart
+&
 sleep 20
 #
 lxc exec kibana service packetbeat restart
